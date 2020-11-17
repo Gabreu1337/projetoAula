@@ -1,0 +1,21 @@
+No PC local:
+
+1 - git init
+
+2 - cria o arquivo
+
+3 - git add .
+
+4 - git commit -m "adicionando arquivo"
+
+
+
+No github:
+
+1 - cria o repositorio e copia a URL para conexao remota via https.
+
+2 - no PC local executa: git remote add origin URL
+
+3 - testar a conectividade com git remote -v
+
+4 - git push origin master
