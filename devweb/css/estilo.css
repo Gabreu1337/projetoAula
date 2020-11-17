@@ -1,0 +1,131 @@
+@font-face{
+	font-family: 'AstroSpace';
+	src: url("../fontes/AstroSpace-eZ2Bg.ttf");
+
+}
+
+body{
+
+    background-image: url("../imagens/sistemadeconexao.jpg");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-attachment: fixed;
+    background-size: 100%;
+    
+}
+
+.titulo{
+    margin-bottom: 40px; 
+    text-align: center; 
+    color: floralwhite; 
+    font-family: 'AstroSpace';
+	
+}
+
+#bar{
+    color: white;
+}
+
+
+#imagem{
+
+    margin-top: -60px; 
+    width: 150px; 
+    height: 60px; 
+    float: right;
+}
+/*aqui é o card dos produtos*/
+#card{
+    height: auto;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 15rem; 
+    float: left;
+}
+/*aqui é o card dos serviços*/
+#card-serv{
+    width: 15rem;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    height: 485px;
+    float: left;
+}
+
+#cadimg{
+
+    width: 13rem;
+   
+}
+
+
+
+/*aqui é o Botão dos serviços*/
+.btnserv{
+    margin-top: 50px;
+    
+}
+
+#formulario{
+    width: 35%;
+    margin-left: 360px;
+    
+}
+
+
+@media screen and (max-width: 1001px){
+
+    body{
+
+        background-image: url("../imagens/sistemadeconexao.jpg");
+        background-repeat: no-repeat;
+        background-position: absolute;
+        background-attachment: fixed;
+        background-size: 280%;
+        
+    }
+
+    #card{
+        height: auto;
+        margin-left: 5px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    #formulario{
+        width: 300px;
+        margin-left: auto;
+        
+    }
+
+   
+
+    
+
+}
+
+@media screen and (max-width: 900px){
+
+    #formulario{
+        width: 300px;
+        margin-left: 10px;
+        
+        
+    }
+
+    #imagem{
+
+     
+        margin-top: -40px; 
+        width: 120px; 
+        height: 52px; 
+        float: right;
+    }
+
+}
+
+
+
+
+
