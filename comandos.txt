@@ -19,3 +19,5 @@ No github:
 3 - testar a conectividade com git remote -v
 
 4 - git push origin master
+
+5 - git --global user.email kmilosouza@gmail.com
